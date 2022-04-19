@@ -7,7 +7,7 @@ import android.widget.EditText
 import android.widget.Toast
 import com.movchan.testd.R
 
-class SingInActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
     private lateinit var emailEt : EditText
     private lateinit var passwordEt: EditText
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -25,7 +25,7 @@ class LaunchActivity : AppCompatActivity() {
 
             override fun onFinish() {
                 IV.rotation = 0f
-                var intent = Intent(this@LaunchActivity, MainActivity::class.java)
+                var intent = Intent(this@LaunchActivity, SignInActivity::class.java)
                 startActivity(intent)
             }
 
